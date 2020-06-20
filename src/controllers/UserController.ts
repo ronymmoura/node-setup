@@ -1,11 +1,11 @@
-import { User } from "@models/User";
+import { User } from '@models/User';
 
 export class UserController {
-    create(name: string) {
-        const user = new User();
+  create (name: string) {
+    const user = new User();
 
-        user.name = name;
+    user.name = name;
 
-        return user;
-    }
+    return user;
+  }
 }

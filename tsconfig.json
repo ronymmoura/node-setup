@@ -12,12 +12,15 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
+        "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
         "baseUrl": ".",
         "paths": {
             "@controllers/*": ["./src/controllers/*"],
             "@models/*": ["./src/models/*"]
         }
-    }
+    },
+    "include": [
+      "src/**/*"
+    ]
 }
